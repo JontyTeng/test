@@ -1,0 +1,32 @@
+1.简述自定义数据类型的定义格式和使用方式？
+
+2.简述ArrayList集合的定义格式和常用方法的功能？
+
+3.练习商品报价单加入数据封装的代码实现、超市管理系统加入数据封装代码实现、超市管理系统追加展示库存清单、添加新商品代码实现。
+
+4.以下选项错误的是？
+	A.获取数组的长度用length方法      length属性
+	B.获取字符串的长度用length属性    length()  // 还没学 
+	C.获取集合ArrayList的长度用length方法        //size()
+	D.获取数组的长度用length属性                 
+	E.获取字符串的长度用length方法               
+	F.获取集合ArrayList的长度用length属性    
+	G.获取集合ArrayList的长度用size属性
+	H.获取集合ArrayList的长度用size方法
+
+5.定义一个学生类Student，包含三个属性姓名、年龄、性别，创建三个学生对象存入ArrayList集合中。
+  A：遍历集合遍历输出。
+  B：求出年龄最大的学生，让后将该对象的姓名变为：葫芦娃。
+
+6.定义一个手机类Phone，包含三个属性品牌(brand)、价格(price)、颜色(color)。
+  创建四个手机("小米"、"华为"、"乐视"、"奇酷")对象存入ArrayList集合中，并遍历输出。
+
+7.定义一个员工类Employee，包含三个属性姓名、工号、工资，创建三个员工对象存入ArrayList集合中，并遍历输出。
+
+8.利用上面的三个案例，分别演示ArrayList集合中的以下常用方法：
+	 * 	public boolean add(元素类型 e)				直接向集合添加元素
+	 * 	public void add(int index,元素类型 e)		在指定索引处向集合添加元素
+	 *  public 元素类型 remove(int index)			删除指定索引位置的元素
+	 *  public 元素类型 set(int index,元素类型 e)		修改指定索引位置的元素
+	 *  public int size()					获取集合长度
+	 *  public 元素类型 get(int index)				根据指定索引获取集合元素
